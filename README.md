@@ -1,37 +1,63 @@
-# Fusion CAD Portfolio
+# ⚙️ Fusion CAD Portfolio
 
-CAD projects designed in **Autodesk Fusion** as part of my EV + robotics learning plan. Each project adds new skills and connects to the next, building toward a robot arm controlled in ROS 2.
+CAD projects designed in **Autodesk Fusion** as part of my EV + Robotics learning journey. Each project builds on previous engineering skills, progressing toward a **ROS 2-controlled robotic arm**.
 
-## Projects
+## 📂 Projects
 
 | # | Project | Highlights | Status |
-| --- | --- | --- | --- |
-| 1 | [4S2P 18650 Battery Module](01-battery-module-4s2p/) | Multi-part assembly, interference & section analysis, BMS mount, vented enclosure | ✅ Done |
-| 2 | [Parallel-Jaw Robot Gripper](02-robot-gripper/) | Rack & pinion, revolute + slider joints, motion links, motion study | ✅ Done |
-| 3 | Differential-Drive Robot Chassis | Real component sizes, fasteners, design for 3D printing | 🔄 In progress |
-| 4 | EV Motor Mount + Gear Reduction | Gear design, stress simulation (FEA) | ⬜ Planned |
-| 5 | 3-DOF Desktop Robot Arm | Joint limits, URDF export, control in ROS 2 / Webots | ⬜ Planned |
+|---|---|---|---|
+| 1 | [4S2P 18650 Battery Module](01-battery-module-4s2p/) | Multi-part assembly, interference & section analysis, BMS mount, vented enclosure | ✅ Completed |
+| 2 | [Parallel-Jaw Robot Gripper](02-robot-gripper/) | Rack & pinion, revolute + slider joints, motion links, motion study | ✅ Completed |
+| 3 | [Differential-Drive Robot Chassis](03-obstacle-avoiding-robot/) | Real component dimensions, custom 3D-printable chassis, motor cradles, motion study, interference analysis | ✅ Completed |
+| 4 | EV Motor Mount + Gear Reduction | Gear design, mechanical assembly, stress simulation (FEA) | ⬜ Planned |
+| 5 | 3-DOF Desktop Robot Arm | Joint limits, URDF export, ROS 2 / Webots integration | ⬜ Planned |
 
-## Gallery
+## 🖼️ Project Gallery
 
-| Battery Module | Robot Gripper |
-| --- | --- |
-| ![4S2P battery module](01-battery-module-4s2p/render.png) | ![Parallel-jaw gripper](02-robot-gripper/Gripper_render.png) |
+| Battery Module | Robot Gripper | Obstacle-Avoiding Robot |
+|---|---|---|
+| ![4S2P Battery Module](01-battery-module-4s2p/render.png) | ![Parallel-Jaw Gripper](02-robot-gripper/Gripper_render.png) | ![Obstacle-Avoiding Robot](03-obstacle-avoiding-robot/Robot_render.png) |
+| [View Project 01](01-battery-module-4s2p/) | [View Project 02](02-robot-gripper/) | [View Project 03](03-obstacle-avoiding-robot/) |
 
-## Every project includes
+## 📦 Project Deliverables
 
-- 📸 Photorealistic render
-- 🎬 Video (exploded view or motion study)
-- 📄 Engineering drawing (ISO A3, with parts list)
-- 📦 Fusion archive (`.f3z`) and STEP file
-- ✍️ README with design details and the problems solved along the way
+Each project aims to include:
 
-## Skills
+- 📸 Photorealistic CAD render
+- 🎬 Motion study or exploded-view animation
+- 📄 Engineering drawings (ISO A3, with parts list)
+- 📦 Autodesk Fusion archive (`.f3z`) and STEP files
+- ✍️ Detailed README documenting design decisions, specifications, and problems solved
 
-Autodesk Fusion · part & assembly design · joints and motion links · interference analysis · section analysis · rendering · animation · engineering drawings
+## 🛠️ Skills & Tools
 
-## About me
+**Software:**  
+Autodesk Fusion · Webots · ROS 2 · MATLAB
 
-Engineering student (semester 3) focused on **electric vehicles and robotics**. Also working with Webots, ROS 2 and MATLAB.
+**Engineering Skills:**
+- Parametric Part & Assembly Design
+- Mechanical Joints and Motion Links
+- Rack & Pinion Mechanisms
+- Design for Additive Manufacturing (3D Printing)
+- Interference Detection and Analysis
+- Section Analysis
+- Motion Studies and Animation
+- Photorealistic Rendering
+- Engineering Drawings and Technical Documentation
+
+## 🎯 Roadmap
+
+- [x] Project 01 – 4S2P Battery Module
+- [x] Project 02 – Parallel-Jaw Robot Gripper
+- [x] Project 03 – Differential-Drive Robot Chassis
+- [ ] Project 04 – EV Motor Mount + Gear Reduction
+- [ ] Project 05 – 3-DOF Desktop Robot Arm
+- [ ] Integrate robotic arm with ROS 2 and Webots
+
+## 👨‍💻 About Me
+
+Engineering student (Semester 3) interested in **Electric Vehicles, Mechanical Design, and Robotics**.
+
+Currently developing practical engineering skills through CAD projects, mechanical assemblies, simulation, and robotics software.
 
 **Author:** Prithvi Mishra
