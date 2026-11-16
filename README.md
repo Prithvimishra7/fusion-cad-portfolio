@@ -8,7 +8,7 @@ CAD projects designed in **Autodesk Fusion** as part of my EV + Robotics learnin
 |---|---|---|---|
 | 1 | [4S2P 18650 Battery Module](01-battery-module-4s2p/) | Multi-part assembly, interference & section analysis, BMS mount, vented enclosure | ✅ Completed |
 | 2 | [Parallel-Jaw Robot Gripper](02-robot-gripper/) | Rack & pinion, revolute + slider joints, motion links, motion study | ✅ Completed |
-| 3 | [Differential-Drive Robot Chassis](03-obstacle-avoiding-robot/) | Real component dimensions, custom 3D-printable chassis, motor cradles, motion study, interference analysis | ✅ Completed |
+| 3 | [Differential-Drive Robot Chassis](03-robot-chassis/) | Real component dimensions, custom 3D-printable chassis, motor cradles, motion study, interference analysis | ✅ Completed |
 | 4 | EV Motor Mount + Gear Reduction | Gear design, mechanical assembly, stress simulation (FEA) | ⬜ Planned |
 | 5 | 3-DOF Desktop Robot Arm | Joint limits, URDF export, ROS 2 / Webots integration | ⬜ Planned |
 
@@ -16,8 +16,8 @@ CAD projects designed in **Autodesk Fusion** as part of my EV + Robotics learnin
 
 | Battery Module | Robot Gripper | Obstacle-Avoiding Robot |
 |---|---|---|
-| ![4S2P Battery Module](01-battery-module-4s2p/render.png) | ![Parallel-Jaw Gripper](02-robot-gripper/Gripper_render.png) | ![Obstacle-Avoiding Robot](03-obstacle-avoiding-robot/Robot_render.png) |
-| [View Project 01](01-battery-module-4s2p/) | [View Project 02](02-robot-gripper/) | [View Project 03](03-obstacle-avoiding-robot/) |
+| ![4S2P Battery Module](01-battery-module-4s2p/render.png) | ![Parallel-Jaw Gripper](02-robot-gripper/Gripper_render.png) | ![Obstacle-Avoiding Robot](03-robot-chassis/Robot_render.png) |
+| [View Project 01](01-battery-module-4s2p/) | [View Project 02](02-robot-gripper/) | [View Project 03](03-robot-chassis/) |
 
 ## 📦 Project Deliverables
 
